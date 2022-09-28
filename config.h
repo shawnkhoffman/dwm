@@ -32,7 +32,7 @@ static const char *colors[][3]      = {
 /* tagging */
 #define TAGLENGTH 9
 static const char *tags[][TAGLENGTH] = {
-	{ "", "", "", "", "ﭮ", "", "", "", "" },
+	{ "", "", "", "", "", "", "", "", "" },
 	{ "A", "B", "C", "D", "E", "F", "G", "H", "I"},
 };
 
@@ -86,7 +86,7 @@ static const Layout layouts[] = {
 };
 
 /* key definitions */
-#define MODKEY Mod4Mask
+#define MODKEY Mod1Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
